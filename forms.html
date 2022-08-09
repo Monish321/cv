@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h4>Registration form</h4>
+</head>
+<body>
+    <form action ="/action.php">
+        <p>login id</p>
+        <input type = "text" placeholder="Enter mail or phone number"><br>
+        <p>password</p>
+        <input type = "password" placeholder="password">
+    <br>
+    <p>GENDER</p>
+        <input type="radio" value ="male" name="GENDER">male
+        <input type="radio" value ="female" name="GENDER">female
+        <br>
+        <p>Favourite sport</p>
+        <label for "cricket">
+            <input type ="checkbox" value="cricket" name="sport">cricket
+        </label>
+        <br>
+        <label for "football">
+            <input type ="checkbox" value="football" name="sport">football
+        </label>
+        <br>
+        <label for "tennis">
+            <input type ="checkbox" value="tennis" name="sport">tennis
+        </label>
+        <br>
+        <br>
+        select your city
+        <select name="city">
+            
+            <option value="Tumkur">Tumkur</option>
+            <option value="banglore">banglore</option>
+            <option value="pattaya">pattaya</option>
+        </select>
+        <br>
+        <p>feedback</p>
+        <textarea name = "feedback" placeholder ="Give your feedback" row="20" column ="20"></textarea>
+    </form>
+    
+</body>
+</html>
